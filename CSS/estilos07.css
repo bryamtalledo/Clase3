@@ -1,0 +1,22 @@
+/*********************** 
+Fonts
+*************************/
+@font-face{
+    font-family: "Barlow Thin";
+    src: url("../Font/fonts/barlow-thin-webfont.eot")   format("embedded-opentype"), 
+        url("../Font/fonts/barlow-thin-webfont.woff")       format("woff"),
+        url("../Font/fonts/barlow-thin-webfont.woff2")  format("woff2"),
+        url("../Font/fonts/barlow-thin-webfont.ttf")    format("truetype"),
+        url("../Font/fonts/barlow-thin-webfont.svg")    format("svg");
+
+    font-weight: 100;
+    font-style: normal
+}
+
+/*****************************
+estilos generales
+*****************/
+p{
+    font-family: "Barlow Thin";
+}
+
