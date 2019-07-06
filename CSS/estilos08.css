@@ -1,0 +1,40 @@
+p{
+    /* normal */
+    font-style: oblique; /* medio cursive */
+    /* font-size: 24px */
+
+    /* small */
+    /* font-size: xx-small; 9px */
+    /* font-size: x-small; 10px */
+    /* font-size: small; 13px */
+
+    /* font-size: medium ; 16px - defecto */
+
+    /* large */
+    font-size: large;/*18px */
+    /* font-size: x-large; 24px */
+    /* font-size: xx-large; 32px */
+    
+    /* alineacion del texto */   
+    text-align: justify;
+
+
+    /* espacio entre letras */
+    word-spacing: 7 px
+}
+
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    letter-spacing: 7px; /* separacion de letras */
+}
+
+h3{  
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 900;
+    font-style: italic;
+
+    text-transform: capitalize;
+}
+
