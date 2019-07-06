@@ -1,0 +1,23 @@
+
+/* todo elemento que contenga la palabra btn como clase */
+[class*="btn"]{
+    color:red;
+    background-color: green;
+
+}
+
+/* empiece la clase,   */
+[href^="https"]{
+    color: white
+}
+
+/* terminen  */
+[href$=".pdf"]{
+    font-size: 24px;
+}
+
+/* todos los que tenganuna clase que comienzo o sea igual a "val" */
+[class|="val"]{
+    color: tomato
+}
+

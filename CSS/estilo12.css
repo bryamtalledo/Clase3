@@ -1,0 +1,53 @@
+article p span{
+    background-color: peru;
+
+}
+
+/* selector de clase */
+.parrafo2{
+    color: green
+}
+
+.caja{
+    background-color: violet;
+}
+
+
+/* elemento seleccionado */
+p.seleccionado{
+    text-decoration:  underline
+}
+
+.text-align-center{
+    text-align: center;
+}
+.color-rojo{
+    color: red
+}
+
+
+#seleccionar{
+    text-transform: uppercase;  
+}
+
+
+/*123*/
+[id="123"]{
+    text-decoration:underline black;
+}
+
+/* selector hijo directo */
+article > h1{
+    background-color: red;
+}
+
+/*selector adyacente */
+section h1 + h2 {
+    background-color: blue;
+}
+
+/* selector precedente */
+section h1 ~ h2 { 
+    background-color: green;
+}
+

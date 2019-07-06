@@ -1,0 +1,67 @@
+/* selectores nth-child */
+
+.selector1 :nth-child(4){
+    color: green;
+}
+.selector1 :nth-child(6){
+    color: peru;
+}
+.selector2 :first-child{
+    color: red;
+}
+.selector2 :last-child{
+    color: blueviolet
+}
+
+
+/* pares */
+.selector3 :nth-child(even){
+    background-color: tomato;
+}
+
+/* impares */
+.selector3 :nth-child(odd){
+    background-color: violet;
+}
+
+.selector4 :nth-last-child(5){
+    color: green;
+}
+
+.selector4 :nth-last-child(3){
+    color: red ;
+}
+
+/*primer  elemento*/
+.selector5 p:first-of-type{
+    color: gold
+}
+
+/*ultimo elemento */
+.selector5 p:last-of-type{
+    color: gold
+}
+
+/* seleccionamos todos los elementos mens al ultimo
+ */
+ .selector5 p:not(:last-child){
+     background-color:#e13549;
+ }
+
+ /* seleccionamos el elemento vacio  */
+.selector3 li :empty{
+    color: green
+}
+
+
+/* seleccionar la primera linea */
+.selector6 :first-child:first-line{
+    color: red;
+}
+
+
+.selector6 :first-child:first-letter{
+    font-size: 42px
+}
+
+
