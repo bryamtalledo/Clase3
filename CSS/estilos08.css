@@ -20,7 +20,9 @@ p{
 
 
     /* espacio entre letras */
-    word-spacing: 7 px
+    word-spacing: 7 px;
+
+    line-height: 21px;/* es como un padding para la palabra*/
 }
 
 
@@ -34,7 +36,10 @@ h3{
     font-family: 'Roboto', sans-serif; 
     font-weight: 900;
     font-style: italic;
-
     text-transform: capitalize;
-}
 
+}
+ a{
+     /* text-decoration: line-through; tachado  */
+     text-decoration: none ;
+ }
